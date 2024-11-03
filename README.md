@@ -13,10 +13,10 @@ Group Members:
 - Rowan Shurey
 
 ## Running the files
-‘Data pre-analysis and cleanup.ipynb’: This notebook performs initial data exploration, preprocessing, and cleaning to prepare the dataset for further analysis. It addresses issues like missing values and inconsistencies in the data. Run this file on **Google Colab** due to its use of MIMIC-IV dataset.
+`Data pre-analysis and cleanup.ipynb`: This notebook performs initial data exploration, preprocessing, and cleaning to prepare the dataset for further analysis. It addresses issues like missing values and inconsistencies in the data. Run this file on **Google Colab** due to its use of MIMIC-IV dataset.
 
-‘Project Digital Phenotyping.ipynb': This file focuses on feature engineering, specifically creating digital phenotypes from raw MIMIC-IV data, transforming time-series data into features useful for machine learning. Run on **Google Colab** for MIMIC data access and processing power.
+`Project Digital Phenotyping.ipynb`: This file focuses on feature engineering, specifically creating digital phenotypes from raw MIMIC-IV data, transforming time-series data into features useful for machine learning. Run on **Google Colab** for MIMIC data access and processing power.
 
-‘Data_selection.ipynb’: This notebook allows for data selection and merging from multiple sources within MIMIC-IV. Running this file will produce a combined dataset, merged_df.csv, which is required for modeling. Run this on **Google Colab** to work effectively with MIMIC data.
+`Data_selection.ipynb`: This notebook allows for data selection and merging from multiple sources within MIMIC-IV. Running this file will produce a combined dataset, `merged_df.csv`, which is required for modeling. Run this on **Google Colab** to work effectively with MIMIC data.
 
-‘Models.ipynb’: This notebook contains the implementation and evaluation of various machine learning models. It is recommended to run this file on your **local machine**, and the merged_df.csv should in the same folder as this notebook.
+`Models.ipynb`: This notebook contains the implementation and evaluation of various machine learning models. It is recommended to run this file on your **local machine**, and the merged_df.csv should in the same folder as this notebook.
